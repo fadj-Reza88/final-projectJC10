@@ -1,0 +1,11 @@
+.kotak {
+    color: blue;
+    border-style: dotted;
+    background: linear-gradient(90deg, rgba(0,237,194,1) 0%, rgba(255,235,0,1) 100%);
+    
+}
+
+.www {
+    background-color: black
+    
+}

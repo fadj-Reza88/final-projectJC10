@@ -1,0 +1,236 @@
+{
+  "users": [
+    {
+      "username": "admin",
+      "password": "password",
+      "role": "admin",
+      "id": 1
+    },
+    {
+      "username": "seto",
+      "password": "password",
+      "role": "user",
+      "id": 2
+    },
+    {
+      "username": "budi",
+      "password": "password",
+      "role": "user",
+      "id": 3
+    },
+    {
+      "username": "anton",
+      "password": "password",
+      "role": "admin",
+      "id": 4
+    },
+    {
+      "username": "admin",
+      "password": "password",
+      "role": "admin",
+      "id": 17
+    },
+    {
+      "username": "user2",
+      "password": "password",
+      "email": "mail@mail.com",
+      "role": "user",
+      "id": 18
+    },
+    {
+      "username": "user3",
+      "password": "password",
+      "email": "testing@mail.com",
+      "role": "user",
+      "id": 19
+    },
+    {
+      "username": "",
+      "password": "",
+      "email": "",
+      "role": "user",
+      "id": 20
+    },
+    {
+      "username": "user17",
+      "password": "password",
+      "email": "testing@hore.com",
+      "role": "user",
+      "id": 21
+    },
+    {
+      "username": "testing123",
+      "password": "123",
+      "email": "halo",
+      "role": "user",
+      "id": 22
+    },
+    {
+      "username": "halohalo",
+      "password": "password",
+      "email": "haloMail.com",
+      "role": "user",
+      "id": 23
+    },
+    {
+      "username": "t",
+      "password": "",
+      "email": "",
+      "role": "user",
+      "id": 24
+    },
+    {
+      "username": "tes",
+      "password": "",
+      "email": "",
+      "role": "user",
+      "id": 25
+    },
+    {
+      "username": "testing",
+      "password": "",
+      "email": "",
+      "role": "user",
+      "id": 26
+    },
+    {
+      "username": "1",
+      "password": "",
+      "email": "",
+      "role": "user",
+      "id": 27
+    },
+    {
+      "username": "testing1233",
+      "password": "123",
+      "email": "mail.com",
+      "role": "user",
+      "id": 28
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "nama": "LED TV SAMSUNG 40inch",
+      "harga": "5900000",
+      "category": "LED",
+      "discount": "15",
+      "deskripsi": "Full HD",
+      "img": "https://static.bmdstatic.com/pk/product/medium/599d372289154.jpg"
+    },
+    {
+      "id": 2,
+      "nama": "LED TV TOSHIBA 40inch",
+      "harga": "5500000",
+      "category": "LCD",
+      "discount": 0,
+      "deskripsi": "Full HD",
+      "img": "https://rukminim1.flixcart.com/image/416/416/television/g/d/t/toshiba-40pu200-original-imadd34yp5btemht.jpeg?q=70"
+    },
+    {
+      "nama": "LED TV SHARP 40inch",
+      "harga": "7000000",
+      "discount": 20,
+      "category": "LED",
+      "img": "https://d2pa5gi5n2e1an.cloudfront.net/global/images/product/tvs/Sharp_40_in_LC_40LE295i/Sharp_40_in_LC_40LE295i_L_1.jpg",
+      "deskripsi": "Ultra HD",
+      "id": 3
+    }
+  ],
+  "cart": [
+    {
+      "productId": 2,
+      "userId": 2,
+      "quantity": "5",
+      "price": 40000,
+      "img": "https://store.primagraphia.co.id/wp-content/uploads/2014/08/konsep-kaos.jpg",
+      "discount": 0,
+      "productName": "The Dark Knight",
+      "id": 2
+    },
+    {
+      "productId": 3,
+      "userId": 2,
+      "quantity": "1",
+      "price": 30000,
+      "img": "https://ecs7.tokopedia.net/img/product-1/2018/7/27/27345219/27345219_c9909d3f-8e63-4581-a242-63995611577d_1000_1000.jpg",
+      "discount": 20,
+      "productName": "Epic Comeback",
+      "id": 3
+    },
+    {
+      "productId": 1,
+      "userId": 2,
+      "quantity": 14,
+      "price": 20000,
+      "img": "https://www.jakartanotebook.com/images/products/99/63/19075/2/kaos-polos-katun-pria-o-neck-size-m-81402b-or-t-shirt-black-24.jpg",
+      "discount": 10,
+      "productName": "Kaos Polos Hitam",
+      "id": 4
+    }
+  ],
+  "history": [
+    {
+      "userId": 1,
+      "items": [
+        {
+          "productId": 2,
+          "userId": 1,
+          "quantity": 5,
+          "price": 40000,
+          "img": "https://store.primagraphia.co.id/wp-content/uploads/2014/08/konsep-kaos.jpg",
+          "discount": 0,
+          "productName": "The Dark Knight",
+          "id": 6
+        },
+        {
+          "productId": 1,
+          "userId": 1,
+          "quantity": 1,
+          "price": "20000",
+          "img": "https://www.jakartanotebook.com/images/products/99/63/19075/2/kaos-polos-katun-pria-o-neck-size-m-81402b-or-t-shirt-black-24.jpg",
+          "discount": "15",
+          "productName": "Kaos Polos Hitam",
+          "id": 7
+        }
+      ],
+      "time": "2019-9-3",
+      "totalPrice": 217000,
+      "recipient": "Andre",
+      "postalCode": "15000",
+      "address": "Icon kosan oke mantap santuy living",
+      "id": 1
+    },
+    {
+      "userId": 1,
+      "items": [
+        {
+          "productId": 2,
+          "userId": 1,
+          "quantity": 5,
+          "price": 40000,
+          "img": "https://store.primagraphia.co.id/wp-content/uploads/2014/08/konsep-kaos.jpg",
+          "discount": 0,
+          "productName": "The Dark Knight",
+          "id": 6
+        },
+        {
+          "productId": 1,
+          "userId": 1,
+          "quantity": 1,
+          "price": "20000",
+          "img": "https://www.jakartanotebook.com/images/products/99/63/19075/2/kaos-polos-katun-pria-o-neck-size-m-81402b-or-t-shirt-black-24.jpg",
+          "discount": "15",
+          "productName": "Kaos Polos Hitam",
+          "id": 7
+        }
+      ],
+      "time": "2019-9-3",
+      "totalPrice": 217000,
+      "recipient": "Anton",
+      "postalCode": "17000",
+      "address": "Purwadhika Startup Skuy",
+      "id": 2
+    }
+  ]
+}
